@@ -116,3 +116,49 @@ ul li span:hover{
     color: #fff;
 
 }
+@media (max-width: 768px) {
+    .todo-app {
+        padding: 20px;
+        margin: 50px auto 10px;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 10px;
+    }
+
+    .row input {
+        font-size: 18px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .row button {
+        width: 100%;
+        padding: 12px 0;
+        font-size: 18px;
+    }
+
+    ul li {
+        font-size: 20px;
+        padding: 10px 8px 10px 40px;
+    }
+
+    ul li::before {
+        height: 24px;
+        width: 24px;
+        top: 10px;
+        left: 6px;
+    }
+
+    ul li span {
+        font-size: 24px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+
+/* */
+
